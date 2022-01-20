@@ -1,7 +1,9 @@
 <%- include('partials/header') %>
     <div class="homePage">
         <div class="container">
+            <a href="/logout" class="btn dark" role="button">Log Out</a>
             <i class="fas fa-clipboard-list" id="logs-i"></i>
+            <%= oset %>
             <h1 id="logs-h1">User logs</h1>
             <% logs.forEach(log => { %>
                 <p class="log-text"><%= log.log %></p>
@@ -9,7 +11,7 @@
 
             <hr>
 
-            <a href="/logout" class="btn dark" role="button">Log Out</a>
+            
         </div>
     </div>
 <%- include('partials/footer') %>
