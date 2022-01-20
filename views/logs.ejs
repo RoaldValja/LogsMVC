@@ -1,0 +1,15 @@
+<%- include('partials/header') %>
+    <div class="homePage">
+        <div class="container">
+            <i class="fas fa-clipboard-list" id="logs-i"></i>
+            <h1 id="logs-h1">User logs</h1>
+            <% logs.forEach(log => { %>
+                <p class="log-text"><%= log.log %></p>
+            <% }) %>
+
+            <hr>
+
+            <a href="/logout" class="btn dark" role="button">Log Out</a>
+        </div>
+    </div>
+<%- include('partials/footer') %>

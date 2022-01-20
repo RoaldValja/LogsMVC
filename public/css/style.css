@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.homePage {
+    padding: 4rem 2rem;
+    background-color: #bbbbbb;
+}
+
+i {
+    font-size: 100px;
+}
+
+.container-reg {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.box {
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    box-sizing: border-box;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    padding: 1rem 2rem 1rem 2rem;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+.dark {
+    background-color: #555555;
+    color: white;
+}
+
+.dark:hover {
+    background-color: #444444;
+}
+
+.light {
+    background-color: #eeeeee;
+    color: black;
+}
+
+.light:hover {
+    background-color: #dddddd;
+}
+
+#logs-i {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.log-text {
+    text-align: center;
+}
+
+#logs-h1 {
+    text-align: center;
+}
