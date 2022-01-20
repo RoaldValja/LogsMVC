@@ -4,6 +4,7 @@ const dateAndTime = require('../getDateAndTime.js');
 const LogFromFile = require('../models/logFromFile');
 
 exports.getHomePage = (req, res) => {
+    console.log(req.body);
     res.render('home');
 }
 

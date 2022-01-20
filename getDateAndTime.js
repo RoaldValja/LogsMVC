@@ -15,6 +15,7 @@ exports.getTodayDateAndTime = function(){
 exports.getDateAndTimeLog = function(username){
     let date = new Date();
     date.setHours(date.getHours() + 2);
+    
     let seconds = date.getSeconds();
     if(seconds < 10){
         seconds = "0" + seconds;
