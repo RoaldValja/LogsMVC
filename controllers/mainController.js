@@ -57,8 +57,7 @@ exports.getLogsPage = (req, res) => {
                 newLog.saveLog(() => {
                     LogFromFile.fetchLogs(logLines => {
                         console.log(logLines);
-                        let offset = new Date().getTimezoneOffset();
-                        res.render('logs', {logs: logLines, oset: offset});
+                        res.render('logs', {logs: logLines});
                     });
                 });
             }
